@@ -16,7 +16,7 @@ Foundations Course to practice HTML, CSS and JavaScript fundamentals.
 To view this project locally:
 1. Clone the repository
 
-git clone `git@github.com:Rubsnewgate/modezeit-landing.git`
+git clone `git@github.com:Rubsnewgate/rock-paper-scissors.git`
 
 2. Open the index.html file in your browser
 
