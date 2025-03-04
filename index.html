@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Rock Paper Scissors </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1> Rock, paper, scissors </h1>
-    <p> Open the browser console </p>
+    <h1 class="title"> Rock, paper, scissors </h1>
+
+    <div class="rules">
+        <p> Rules: </p>
+        <ul>
+            <li>
+                <strong> Rock beats Scissors: </strong> rock crushes or breaks scissors
+            </li>
+            <li>
+                <strong> Scissors beats Paper: </strong> scissors cut paper
+            </li>
+            <li>
+                <strong> Paper beats Rock: </strong> paper covers rock
+            </li>
+        </ul>
+    </div>
+
+    <div class="player-options">
+        <p> Do your choose: </p>
+
+        <div class="game-btns">
+            <button id="rock" class="btn"> Rock </button>
+            <button id="paper" class="btn"> Paper </button>
+            <button id="scissors" class="btn"> Scissors </button>
+        </div>
+
+    </div>
+
+    <div class="results">
+        <p>
+            Player selection: <span class="player-selection"> - </span>
+        </p>
+        <p>
+            CPU selection: <span class="cpu-selection"> - </span>
+        </p>
+
+        <p>
+            Player Wins: <span class="player-counter"> 0 </span>
+        </p>
+        <p>
+            CPU Wins: <span class="cpu-counter"> 0 </span>
+        </p>
+
+        <p class="result"> Waiting for battle </p>
+    </div>
 
     <script src="./main.js"></script>
 </body>
